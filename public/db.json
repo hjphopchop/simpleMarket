@@ -1,0 +1,184 @@
+{
+    "products" :[
+         {
+             "id": 0,
+             "name": "ДАНИС.Прод.тв.брав.шок.6,7% 130г",
+             "imageUrl": "https://media.5ka.ru/media/products/78358.jpg",
+             "price": 39.99 ,
+             "oldPrice": 65.99 ,
+             "sale": 40 ,
+             "category": 1
+         },
+         {
+            "id": 1,
+            "name": "Дск Ананасы 1кг" ,
+            "imageUrl": "https://media.5ka.ru/media/products/49596.jpg" ,
+            "price": 199.99,
+            "oldPrice": 219.99 ,
+            "sale": 10,
+            "category": 2
+        },
+        {
+            "id": 2,
+            "name": "Шоколад Milka, молочный, с карамельной начинкой, 90 г" ,
+            "imageUrl": "https://media.5ka.ru/media/products/3468707.jpg",
+            "price": 69.99,
+            "oldPrice": 139.99,
+            "sale": 51,
+            "category": 7
+        },
+        {
+            "id": 3,
+            "name": "Пельмени Цезарь Классика, 800 г" ,
+            "imageUrl": "https://media.5ka.ru/media/products/3666703.jpg" ,
+            "price": 339.99 ,
+            "oldPrice": 549.99 ,
+            "sale": 39 ,
+            "category": 6
+        },
+        {
+            "id": 4,
+            "name": "Хлебцы Гречневые, с витаминами, Dr.Korner, 100 г" ,
+            "imageUrl": "https://media.5ka.ru/media/products/3275648.jpg",
+            "price": 74.99,
+            "oldPrice": 93.99,
+            "sale": 21,
+            "category": 3
+        },
+        {
+            "id": 5,
+            "name": "J-7 Нект.АНАНАСОВЫЙ с мяк.0,97л",
+            "imageUrl": "https://media.5ka.ru/media/products/3191950.jpg" ,
+            "price":99.99,
+            "oldPrice": 189.99,
+            "sale": 48,
+            "category": 0
+        },
+        {
+            "id": 6,
+            "name": "Мираторг Стейк Пеппер из мраморной говядины,полуфабрикат мясной мелкокусковой бескостный, категории А, охлажденный 0,26 кг",
+            "imageUrl": "https://media.5ka.ru/media/products/3991972.jpg" ,
+            "price": 239.99 ,
+            "oldPrice": 279.99 ,
+            "sale": 15 ,
+            "category": 4
+        },
+        {
+            "id": 7,
+            "name": "Стейк грудки индейки, Индилайт, 525 г" ,
+            "imageUrl": "https://media.5ka.ru/media/products/3662143.jpg" ,
+            "price": 219.90 ,
+            "oldPrice": 279.99,
+            "sale": 22,
+            "category": 4
+        },
+        {
+            "id": 8,
+            "name": "Колбаса Останкино Венская Салями полукопченая 420г",
+            "imageUrl": "https://media.5ka.ru/media/products/3425275.jpg" ,
+            "price": 179.99,
+            "oldPrice": 269.99,
+            "sale": 34,
+            "category": 5
+        },
+        {
+            "id": 9,
+            "name":"ЛЮБИМЫЙ Нап.АПЕЛЬСИН.МАНГО дет.мяк.1,93л" ,
+            "imageUrl": "https://media.5ka.ru/media/products/3498026.jpg" ,
+            "price": 119.99,
+            "oldPrice": 159.99,
+            "sale": 26,
+            "category": 0
+        },
+        {
+            "id": 10,
+            "name": "Виноград КИШ-МИШ 1кг",
+            "imageUrl": "https://media.5ka.ru/media/products/79338.jpg",
+            "price": 179.99,
+            "oldPrice": 289.99,
+            "sale": 38,
+            "category": 2
+        },
+        {
+            "id": 11,
+            "name": "ИНМАРКО Морож.ЗОЛ.СТАНД.пломб.12% 475г",
+            "imageUrl": "https://media.5ka.ru/media/products/3496575.jpg",
+            "price": 259.99,
+            "oldPrice": 344.99,
+            "sale": 25,
+            "category": 6
+        },
+        {
+            "id": 12,
+            "name": "Шоколад Ritter Sport Молочный Цельный лесной орех 100г",
+            "imageUrl": "https://media.5ka.ru/media/products/3490515.jpg",
+            "price": 119.99,
+            "oldPrice": 164.99,
+            "sale": 28,
+            "category": 7
+        },
+        {
+            "id": 13,
+            "name": "Вязанка Колбаса вареная Вязанка с индейкой ТМ Стародворские колбасы ТС Вязанка вектор ф/в 0,45 кг",
+            "imageUrl": "https://media.5ka.ru/media/products/4005634.jpg",
+            "price": 189.99,
+            "oldPrice": 289.99,
+            "sale": 35,
+            "category": 5
+        },
+        {
+            "id": 14,
+            "name": "Дск Манго 1 кг",
+            "imageUrl": "https://media.5ka.ru/media/products/3626871.jpg",
+            "price": 299.99,
+            "oldPrice": 349.99,
+            "sale": 15,
+            "category": 2
+        },
+        {
+            "id": 15,
+            "name": "Дск Грибы ШАМПИНЬОНЫ 250г",
+            "imageUrl": "https://media.5ka.ru/media/products/3357066.jpg",
+            "price": 79.99,
+            "oldPrice": 99.99,
+            "sale": 21,
+            "category": 2
+        },
+        {
+            "id": 16,
+            "name": "ЛАМБЕР Сыр твердый 50% фасованный 1 кг",
+            "imageUrl": "https://media.5ka.ru/media/products/78001656.jpg",
+            "price": 799.99,
+            "oldPrice": 1099.00,
+            "sale": 28,
+            "category": 1
+        },
+        {
+            "id": 17,
+            "name": "Продукт творожный Даниссимо со вкусом Фисташковое мороженое 6.5% 130г",
+            "imageUrl": "https://media.5ka.ru/media/products/3602086.jpg",
+            "price": 39.99,
+            "oldPrice": 65.99,
+            "sale": 40,
+            "category": 1
+        },
+        {
+            "id": 18,
+            "name": "Напиток Пепси-Кола, эксклюзив, безалкогольный, газированный, 0,33 л",
+            "imageUrl": "https://media.5ka.ru/media/products/3207052.jpg",
+            "price": 84.99,
+            "oldPrice": 95.99,
+            "sale": 12,
+            "category": 0
+        },
+        {
+            "id": 19,
+            "name": "Батончик шоколадный Picnic Грецкий Орех 52г",
+            "imageUrl": "https://media.5ka.ru/media/products/3419777.jpg",
+            "price": 37.99,
+            "oldPrice": 52.99,
+            "sale": 29,
+            "category": 7
+        }
+    ]
+    }
