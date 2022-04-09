@@ -1,0 +1,18 @@
+.products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+}
+
+.active{
+    background-color: rgb(55, 31, 190);
+}
+
+.net{
+    color: brown;
+}
