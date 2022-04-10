@@ -1,6 +1,9 @@
 const initialState ={
     category: null,
-
+    sort:{
+        type: 'name',
+        order: 'desc',
+}
 }
 
 const filters = (state=initialState, action) => {
@@ -9,6 +12,12 @@ const filters = (state=initialState, action) => {
         return {
             ...state,
             category:action.payload
+        }
+
+        case "SET_SORT": 
+        return{
+            ...state,
+            sort:action.payload,
         }
        
         default:

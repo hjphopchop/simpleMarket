@@ -5,12 +5,12 @@ export const setLoaded = (payload) => ({
     payload,
 })
 
-export const fetchProducts =  (category) => async (dispatch) => {
+export const fetchProducts =  (category,sort) => async (dispatch) => {
         dispatch({
             type: 'SET_LOADED',
             payload: false,
         });
-      const response = await axios.get(`http://localhost:3001/products/?${category !== null ? `category=${category}` : ''}`,)
+      const response = await axios.get(`http://localhost:3001/products/?${category !== null ? `category=${category}` : ''}&_sort=${sort.type}&_order=${sort.order}`,)
             dispatch(setProducts(response.data));
         
         

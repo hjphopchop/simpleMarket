@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from "../assets/img/logo.jpg"
+import cl from '../styles/Header.module.css'
 
 const Header = () => {
   return (
-    <nav>
-        <ul>
+    <div>
+      <nav>
+        <ul className={cl.nav}>
             <li><img src={logo} /></li>
             <li>Рейтинг магазинов</li>
             <li>Магазины</li>
@@ -12,6 +15,10 @@ const Header = () => {
             <li> Войти</li>
         </ul>
     </nav>
+    <Link to={'/cart'}>Корзина</Link>
+    </div>
+     
+    
   )
 }
 
