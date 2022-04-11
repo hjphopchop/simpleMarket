@@ -21,9 +21,8 @@ const filters = (state=initialState, action) => {
         }
        
         default:
-            return {
-                ...state
-            }
+            return state
+            
             
     }
 }

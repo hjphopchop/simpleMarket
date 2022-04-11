@@ -1,18 +1,25 @@
 const initialState={
-    items:[]
+    items:{},
 }
 
 const cart =(state =initialState,action) => {
+   
     switch(action.type){
         case "PRODUCT_TO_CART": 
+        
         return {
-            ...state,
-            items:action.payload
-        }
+            
+           items:{
+            ...state.items,
+            [action.payload.id]: 
+               !state.items[action.payload.id]
+               ?[action.payload]
+               : [...state.items[action.payload.id],action.payload]
+           },
+           
+        };
         default: 
-        return {
-            state
-        }
+        return state 
     }
 }
 
