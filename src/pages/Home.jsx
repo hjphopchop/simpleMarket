@@ -45,6 +45,8 @@ const sortItems = [
 
   return (
     <div>
+         <div>{cartItems.totalPrice}</div>
+        <div>{cartItems.totalCount}</div>
         <SortBlock
         onClickSortType={onSelectSort}
         items={sortItems}

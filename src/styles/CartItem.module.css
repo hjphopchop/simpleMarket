@@ -1,0 +1,14 @@
+.cartItems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: aliceblue;
+}
+
+.cartItem{
+    
+}
+
+img{max-width: 200px;
+height: auto;}
