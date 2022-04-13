@@ -22,10 +22,11 @@ const onAddProduct = () => {
            <div className={cl.price}>
              <div className={cl.currentPrice}>{price}</div>
              <div className={cl.oldPrice}>{oldPrice}</div>
+             <button className={cl.button} onClick={onAddProduct}>+</button>
            </div>
         <div>{name}</div>
         
-        <button onClick={onAddProduct}>купить</button>
+        
         
         </div>
         

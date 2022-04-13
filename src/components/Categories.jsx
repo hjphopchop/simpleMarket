@@ -1,10 +1,10 @@
 import React from 'react'
-import cl from "../styles/ProductItem.module.css"
+import cl from "../styles/Categories.module.css"
 
 const Categories = React.memo(function Categories({items,onClickCategory, activeCategory}) { 
     return (
-        <div>
-            <ul>
+        <div className={cl.categories}>
+            <ul className={cl.list}>
             <li className={activeCategory ===null ? cl.active: cl.net}
             onClick={()=> onClickCategory(null)}>Все</li>
     

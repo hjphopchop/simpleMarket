@@ -8,6 +8,11 @@
     width: 176px;
     height: 176px;
 }
+
+.imageCont:hover{
+    opacity: 0.9;
+}
+
 .imageCont::before{
     content: "";
     position: absolute;
@@ -59,4 +64,20 @@
     display: flex;
     align-items: flex-end;
     white-space: nowrap;
+}
+.button{
+    border-radius: 100px;
+    font-size: 22px;
+    
+    background-color: #b8b8b8;
+    opacity: .5;
+    border:none;
+    color: black;
+    
+    
+
+}
+.button:hover{
+    background-color: #fea807;
+    opacity: .8;
 }
