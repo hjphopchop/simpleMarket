@@ -2,7 +2,7 @@ import React, { useCallback, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import {fetchProducts} from '../store/actions/products'
 import ProductItem from '../components/ProductItem';
-import cl from '../styles/ProductItem.module.css'
+import cl from '../styles/Home.module.css'
 import Categories from '../components/Categories';
 import { setCategory, setSort } from '../store/actions/filters';
 import SortBlock from '../components/SortBlock';
@@ -59,6 +59,7 @@ const sortItems = [
         activeCategory={category}
         onClickCategory={onSelectCategory}
         items={categoryNames}
+        
         />
             </div>
     
@@ -68,6 +69,7 @@ const sortItems = [
        <ProductItem
        clickProduct={addProductToCart}
         key={item.id} {...item} 
+        
        
         />
        )) :

@@ -10,7 +10,7 @@ export const fetchProducts =  (category,sort) => async (dispatch) => {
             type: 'SET_LOADED',
             payload: false,
         });
-      const response = await axios.get(`http://localhost:3001/products/?${category !== null ? `category=${category}` : ''}&_sort=${sort.type}&_order=${sort.order}`,)
+      const response = await axios.get(`/products/?${category !== null ? `category=${category}` : ''}&_sort=${sort.type}&_order=${sort.order}`,)
             dispatch(setProducts(response.data));
         
         
