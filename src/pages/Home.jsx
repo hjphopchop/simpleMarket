@@ -6,7 +6,8 @@ import cl from '../styles/Home.module.css'
 import Categories from '../components/Categories';
 import { setCategory, setSort } from '../store/actions/filters';
 import SortBlock from '../components/SortBlock';
-import { toCart } from '../store/actions/cart';
+import cartImg from '../assets/img/cart.png'
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -16,8 +17,9 @@ const Home = () => {
     const cartItems = useSelector(({cart}) => cart)
 const categoryNames=["Напитки","молочные продукты","Овощи и фрукты","Хлеб","Мясо и птица","Колбаса","Замороженные продукты","Сладости"];
 const sortItems = [
-    {name: "price", type:'price' , order: 'desc'},
-    {name: "name", type:'name' , order: 'asc'},
+    {name: "Цене", type:'price' , order: 'asc'},
+    {name: "Скидке", type:'sale' , order: 'desc'},
+    {name: "Названию", type:'name' , order: 'asc'},
 ]
 
    console.log(cartItems);
@@ -44,17 +46,23 @@ const sortItems = [
     }
 
   return (
-    <div>
-         <div>{cartItems.totalPrice}</div>
-        <div>{cartItems.totalCount}</div>
-        <SortBlock
-        onClickSortType={onSelectSort}
-        items={sortItems}
-        />
+    <div className={cl.home}>
+        
+         {cartItems.totalCount >0 && <div className={cl.cart}>
+             <Link to='/cart' className={cl.cartItems}><img className={cl.cartImg} src={cartImg} ></img>
+             <div className={cl.cartPrice}>{cartItems.totalPrice}</div>
+             <div className={cl.cartCount}>{cartItems.totalCount}</div>
+            </Link> </div> }
+       
+        
         
         
         <div className={cl.main}>
             <div>
+            <SortBlock
+        onClickSortType={onSelectSort}
+        items={sortItems}
+        />
             <Categories
         activeCategory={category}
         onClickCategory={onSelectCategory}
@@ -64,7 +72,7 @@ const sortItems = [
             </div>
     
         <div className={cl.products}>
-        {isLoaded?
+        {isLoaded &&
        items.map((item) => (
        <ProductItem
        clickProduct={addProductToCart}
@@ -72,8 +80,8 @@ const sortItems = [
         
        
         />
-       )) :
-       <div>LOADING... </div>
+       ))
+       
        }
         </div>
 

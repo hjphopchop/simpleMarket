@@ -15,7 +15,7 @@ const Header = () => {
             <li> Войти</li>
         </ul>
     </nav>
-    <Link to={'/cart'}>Корзина</Link>
+    
     </div>
      
     

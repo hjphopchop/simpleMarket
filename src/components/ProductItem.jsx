@@ -9,6 +9,8 @@ const onAddProduct = () => {
     name,
     imageUrl,
     price,
+    sale,
+    oldPrice
    
   }
   clickProduct(obj)
@@ -20,8 +22,11 @@ const onAddProduct = () => {
            <div className={cl.sale}> {sale} %</div>
            </div> 
            <div className={cl.price}>
+             <div>
              <div className={cl.currentPrice}>{price}</div>
              <div className={cl.oldPrice}>{oldPrice}</div>
+             </div>
+             
              <button className={cl.button} onClick={onAddProduct}>+</button>
            </div>
         <div>{name}</div>

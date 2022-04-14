@@ -1,8 +1,8 @@
 const initialState ={
     category: null,
     sort:{
-        type: 'name',
-        order: 'desc',
+        type: 'price',
+        order: 'esc',
 }
 }
 
