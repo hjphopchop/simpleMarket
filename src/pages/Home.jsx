@@ -30,7 +30,7 @@ const sortItems = [
 
     const onSelectCategory = useCallback((index) => {
         dispatch(setCategory(index))
-    },[);
+    },[]);
     const onSelectSort = useCallback((type) => {
         console.log(type);
         dispatch(setSort(type))
