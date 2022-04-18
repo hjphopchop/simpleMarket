@@ -9,16 +9,13 @@ const Header = () => {
       <nav>
         <ul className={cl.nav}>
             <li><Link to={'/'}><img src={logo} /></Link> </li>
-            <li>Рейтинг магазинов</li>
-            <li>Магазины</li>
-            <li>Новости компании</li>
-            <li> Войти</li>
+            <li><Link to={'/ratingMarkets'}>Рейтинг магазинов</Link></li>
+            <li><Link to={'/markets'}>Магазины</Link></li>
+            <li><Link to={'/news'}>Новости компании</Link></li>
+            <li><Link to={'/auth'}> Войти</Link></li>
         </ul>
     </nav>
-    
     </div>
-     
-    
   )
 }
 

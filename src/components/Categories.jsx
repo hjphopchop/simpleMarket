@@ -18,7 +18,6 @@ const Categories = React.memo(function Categories({items,onClickCategory, active
                 </li>
             ))}
             </ul>
-           
         </div>
       )
 })

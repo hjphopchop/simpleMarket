@@ -15,33 +15,21 @@ const onAddProduct = () => {
   }
   clickProduct(obj)
 }
-
   return (
-        <div className={cl.product}>
-           <div className={cl.imageCont}><img src={imageUrl}></img>
-           <div className={cl.sale}> {sale} %</div>
-           </div> 
-           <div className={cl.price}>
-             <div>
-             <div className={cl.currentPrice}>{price}</div>
-             <div className={cl.oldPrice}>{oldPrice}</div>
-             </div>
-             
-             <button className={cl.button} onClick={onAddProduct}>+</button>
-           </div>
-        <div>{name}</div>
-        
-        
-        
+    <div className={cl.product}>
+      <div className={cl.imageCont}><img src={imageUrl}></img>
+        <div className={cl.sale}> {sale} %</div>
+      </div> 
+      <div className={cl.price}>
+        <div>
+          <div className={cl.currentPrice}>{price}</div>
+          <div className={cl.oldPrice}>{oldPrice}</div>
         </div>
-        
-        
-        
-       
-    
+        <button className={cl.button} onClick={onAddProduct}>+</button>
+      </div>
+      <div>{name}</div>
+    </div>
   )
 }
-
-
 
 export default ProductItem

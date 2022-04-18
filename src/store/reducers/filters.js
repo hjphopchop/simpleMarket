@@ -3,7 +3,7 @@ const initialState ={
     sort:{
         type: 'price',
         order: 'esc',
-}
+        }
 }
 
 const filters = (state=initialState, action) => {
@@ -21,9 +21,7 @@ const filters = (state=initialState, action) => {
         }
        
         default:
-            return state
-            
-            
+            return state      
     }
 }
 export default filters;

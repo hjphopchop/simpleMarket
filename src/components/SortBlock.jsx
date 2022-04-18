@@ -26,8 +26,4 @@ const SortBlock = React.memo(({items, onClickSortType,index}) => {
   )
 })
 
-SortBlock.defaultProps = {
-    items:[]
-}
-
 export default SortBlock

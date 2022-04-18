@@ -22,8 +22,6 @@ const Cart = () => {
     const onRemoveItem = (id) => {
       dispatch(removeCartItem(id))
     }
-
-
     const addedProduct = Object.keys(items).map((key)=>{
      return   items[key].items[0];
     }
@@ -51,9 +49,6 @@ const Cart = () => {
       )
       :
      ( <div>В корзине пусто </div>)}
-         
-
-
     </div>
   )
 }
