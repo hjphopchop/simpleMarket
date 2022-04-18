@@ -19,11 +19,11 @@ const App = () => {
       <Header/>
       <Routes>
         <Route path='/simpleMarket/' element={<Home/>} ></Route>
-        <Route path='/simpleMarket//cart' element={<Cart/>}></Route>
-        <Route path='/simpleMarket//ratingMarkets' element={<RatingMarkets/>}></Route>
-        <Route path='/simpleMarket//news' element={<CompanyNews/>} ></Route>
-        <Route path='/simpleMarket//markets' element={<Markets/>}></Route>
-        <Route path='/simpleMarket//auth' element={<Auth/>} ></Route>
+        <Route path='/simpleMarket/cart' element={<Cart/>}></Route>
+        <Route path='/simpleMarket/ratingMarkets' element={<RatingMarkets/>}></Route>
+        <Route path='/simpleMarket/news' element={<CompanyNews/>} ></Route>
+        <Route path='/simpleMarket/markets' element={<Markets/>}></Route>
+        <Route path='/simpleMarket/auth' element={<Auth/>} ></Route>
         <Route path='/simpleMarket/*' element={<Home/>}> </Route>
       </Routes>
       
