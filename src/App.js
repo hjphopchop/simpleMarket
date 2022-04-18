@@ -24,7 +24,6 @@ const App = () => {
         <Route path='/simpleMarket/news' element={<CompanyNews/>} ></Route>
         <Route path='/simpleMarket/markets' element={<Markets/>}></Route>
         <Route path='/simpleMarket/auth' element={<Auth/>} ></Route>
-        <Route path='/simpleMarket/*' element={<Home/>}> </Route>
       </Routes>
       
       

@@ -49,7 +49,7 @@ const sortItems = [
     <div className={cl.home}>
         
          {cartItems.totalCount >0 && <div className={cl.cart}>
-             <Link to='/cart' className={cl.cartItems}><img className={cl.cartImg} src={cartImg} ></img>
+             <Link to='/simpleMarket//cart' className={cl.cartItems}><img className={cl.cartImg} src={cartImg} ></img>
              <div className={cl.cartPrice}>{cartItems.totalPrice}</div>
              <div className={cl.cartCount}>{cartItems.totalCount}</div>
             </Link> </div> }
