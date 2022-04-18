@@ -18,12 +18,12 @@ const App = () => {
     <div className='wrapper'>
       <Header/>
       <Routes>
-        <Route path='/simpleMarket/' element={<Home/>} ></Route>
-        <Route path='/simpleMarket/cart' element={<Cart/>}></Route>
-        <Route path='/simpleMarket/ratingMarkets' element={<RatingMarkets/>}></Route>
-        <Route path='/simpleMarket/news' element={<CompanyNews/>} ></Route>
-        <Route path='/simpleMarket/markets' element={<Markets/>}></Route>
-        <Route path='/simpleMarket/auth' element={<Auth/>} ></Route>
+        <Route path='/' element={<Home/>} ></Route>
+        <Route path='/cart' element={<Cart/>}></Route>
+        <Route path='/ratingMarkets' element={<RatingMarkets/>}></Route>
+        <Route path='/news' element={<CompanyNews/>} ></Route>
+        <Route path='/markets' element={<Markets/>}></Route>
+        <Route path='/auth' element={<Auth/>} ></Route>
       </Routes>
       
       

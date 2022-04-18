@@ -8,11 +8,11 @@ const Header = () => {
     <div>
       <nav>
         <ul className={cl.nav}>
-            <li><Link to={'/simpleMarket'}><img src={logo} /></Link> </li>
-            <li><Link to={'simpleMarket/ratingMarkets'}>Рейтинг магазинов</Link></li>
-            <li><Link to={'simpleMarket/markets'}>Магазины</Link></li>
-            <li><Link to={'simpleMarket/news'}>Новости компании</Link></li>
-            <li><Link to={'simpleMarket/auth'}> Войти</Link></li>
+            <li><Link to={'/'}><img src={logo} /></Link> </li>
+            <li><Link to={'/ratingMarkets'}>Рейтинг магазинов</Link></li>
+            <li><Link to={'/markets'}>Магазины</Link></li>
+            <li><Link to={'/news'}>Новости компании</Link></li>
+            <li><Link to={'/auth'}> Войти</Link></li>
         </ul>
     </nav>
     </div>
