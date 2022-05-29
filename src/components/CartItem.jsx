@@ -16,7 +16,7 @@ const CartItem = ({
     <div className={cl.cartItems}>
       <div>
         <div className={cl.imageCont}>
-          <img src={imageUrl}></img>
+          <img src={imageUrl} alt={name}></img>
           <div className={cl.sale}> {sale} %</div>
         </div>
         <div className={cl.price}>

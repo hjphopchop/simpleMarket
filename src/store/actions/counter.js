@@ -1,11 +1,11 @@
-export const pl = () =>{
-    return{
-        type: "plus",
-    }
-}
+export const pl = () => {
+  return {
+    type: "plus",
+  };
+};
 
-export const min = () =>{
-    return{
-        type: "minus",
-    }
-}
+export const min = () => {
+  return {
+    type: "minus",
+  };
+};

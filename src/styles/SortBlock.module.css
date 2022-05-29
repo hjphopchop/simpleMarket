@@ -1,12 +1,11 @@
-.SortBlock{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: column;
-    max-width: 290px;
-    
+.SortBlock {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 290px;
 }
 
-.sortList{
+.sortList {
   padding: 0;
 }

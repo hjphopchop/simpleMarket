@@ -1,23 +1,16 @@
-
-
-.categories{
-    max-width: 290px;
-    
-   
+.categories {
+  max-width: 290px;
 }
 
-.list{
-    padding: 0px;
+.list {
+  padding: 0px;
 }
-.list li{
-    border-bottom: 1px solid #ececec;
-    padding-bottom: 17px;
-    margin-bottom: 19px;
-    
+.list li {
+  border-bottom: 1px solid #ececec;
+  padding-bottom: 17px;
+  margin-bottom: 19px;
 }
 
-.active{
-    
-    
-    font-weight: bold;
+.active {
+  font-weight: bold;
 }
