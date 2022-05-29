@@ -1,0 +1,13 @@
+.cartCostCount{display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 1vh 0;
+    border-radius: 50px;
+    max-width: 50%;
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+}
+.totalCount{
+    padding-right: 2vw;
+}

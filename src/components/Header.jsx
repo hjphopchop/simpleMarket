@@ -8,7 +8,7 @@ const Header = () => {
     <div>
       <nav>
         <ul className={cl.nav}>
-            <li><Link to={'/home'}><img src={logo} /></Link> </li>
+            <li><Link to={'/'}><img src={logo} /></Link> </li>
             <li><Link to={'/ratingMarkets'}>Рейтинг магазинов</Link></li>
             <li><Link to={'/markets'}>Магазины</Link></li>
             <li><Link to={'/news'}>Новости компании</Link></li>

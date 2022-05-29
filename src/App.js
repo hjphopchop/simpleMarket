@@ -18,7 +18,7 @@ const App = () => {
     <div className='wrapper'>
       <Header/>
       <Routes>
-        <Route path='/home' element={<Home/>} ></Route>
+        <Route path='/' element={<Home/>} ></Route>
         <Route path='/cart' element={<Cart/>}></Route>
         <Route path='/ratingMarkets' element={<RatingMarkets/>}></Route>
         <Route path='/news' element={<CompanyNews/>} ></Route>
